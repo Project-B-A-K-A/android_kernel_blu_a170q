@@ -1,0 +1,85 @@
+#
+# Touchscreen driver configuration
+#
+if TOUCHSCREEN_MTK_MSG2238A
+
+config MSG2238A_FIRMWARE
+	string "MSG2238A for Mediatek firmware"
+
+config TPD_ROTATE_90
+	bool "MSG2238A for Mediatek package"
+	default n
+	help
+	Say Y here if you have MSG2238A touch panel TPD_ROTATE_90.
+
+	If unsure, say N.
+
+	To compile this dirver as a module, choose M here: the
+	module will be called.
+
+config TPD_ROTATE_180
+	bool "MSG2238A for Mediatek package"
+	default n
+	help
+	Say Y here if you have MSG2238A touch panel TPD_ROTATE_180.
+
+	If unsure, say N.
+
+	To compile this dirver as a module, choose M here: the
+	module will be called.
+
+config TPD_ROTATE_270
+	bool "MSG2238A for Mediatek package"
+	default n
+	help
+	Say Y here if you have MSG2238A touch panel TPD_ROTATE_270.
+
+	If unsure, say N.
+
+	To compile this dirver as a module, choose M here: the
+	module will be called.
+
+config FT_AUTO_UPGRADE_SUPPORT
+	bool "MSG2238A for Mediatek package"
+	default y
+	help
+	Say Y here if you have MSG2238A touch panel FT_AUTO_UPGRADE_SUPPORT.
+
+	If unsure, say N.
+
+	To compile this dirver as a module, choose M here: the
+	module will be called.
+
+config CUST_FTS_APK_DEBUG
+	bool "MSG2238A for Mediatek package"
+	default y
+	help
+	Say Y here if you have MSG2238A touch panel CUST_FTS_APK_DEBUG.
+
+	If unsure, say N.
+
+	To compile this dirver as a module, choose M here: the
+	module will be called.
+
+config TPD_HAVE_CALIBRATION
+	bool "MSG2238A for Mediatek package"
+	default n
+	help
+	Say Y here if you have MSG2238A touch panel TPD_HAVE_CALIBRATION.
+
+	If unsure, say N.
+
+	To compile this dirver as a module, choose M here: the
+	module will be called.
+
+config TPD_CUSTOM_CALIBRATION
+	bool "MSG2238A for Mediatek package"
+	default n
+	help
+	Say Y here if you have MSG2238A touch panel TPD_CUSTOM_CALIBRATION.
+
+	If unsure, say N.
+
+	To compile this dirver as a module, choose M here: the
+	module will be called.
+endif
